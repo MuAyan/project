@@ -1,13 +1,13 @@
 import { useEffect } from 'react';
-import Navigation from './components/Navigation';
-import Hero from './components/Hero';
-import ChemistrySection from './components/ChemistrySection';
-import PhysicsSection from './components/PhysicsSection';
-import SafetySection from './components/SafetySection';
-import InteractiveSection from './components/InteractiveSection';
-import Conclusion from './components/Conclusion';
-import Sources from './components/Sources';
-import Footer from './components/Footer';
+import Navigation from './components/Navigation.tsx';
+import Hero from './components/Hero.tsx';
+import ChemistrySection from './components/ChemistrySection.tsx';
+import PhysicsSection from './components/PhysicsSection.tsx';
+import SafetySection from './components/SafetySection.tsx';
+import InteractiveSection from './components/InteractiveSection.tsx';
+import Conclusion from './components/Conclusion.tsx';
+import Sources from './components/Sources.tsx';
+import Footer from './components/Footer.tsx';
 
 function App() {
   useEffect(() => {
